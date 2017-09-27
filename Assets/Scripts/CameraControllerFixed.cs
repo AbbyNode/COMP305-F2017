@@ -12,7 +12,4 @@ public class CameraControllerFixed : MonoBehaviour {
 		camTrans = this.transform;
 		camTrans.position = new Vector3(bg.position.x, bg.position.y, camTrans.position.z);
 	}
-
-	void Update() {
-	}
 }
