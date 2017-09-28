@@ -8,8 +8,11 @@ public class CameraControllerFixed : MonoBehaviour {
 
 	private Transform camTrans;
 
-	void Start() {
+	private void OnEnable() {
 		camTrans = this.transform;
+	}
+
+	private void Update() {
 		camTrans.position = new Vector3(bg.position.x, bg.position.y, camTrans.position.z);
 	}
 }
