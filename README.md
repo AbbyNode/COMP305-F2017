@@ -1,4 +1,4 @@
-# COMP305-F2017
+# Comp305-Labs
 Comp305 Gaming Labs
 
 ## Lab 4 - Click Bombs
