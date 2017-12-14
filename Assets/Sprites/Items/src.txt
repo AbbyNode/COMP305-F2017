@@ -2,5 +2,15 @@
 Bomb
 https://opengameart.org/content/bomb-party-the-complete-set
 
-Items
-https://www.spriters-resource.com/pc_computer/girlsanddungeons/sheet/99281/
+Phone
+https://opengameart.org/content/nakia-3310-sumsung-instinct-motoroller-q-nakia-e63-and-gl-g2-0
+
+Controller
+https://opengameart.org/content/common-controller
+
+Truck
+https://opengameart.org/content/monster-truck-1
+
+House
+https://opengameart.org/content/pixel-house-and-fence
+
