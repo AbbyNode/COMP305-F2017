@@ -148,6 +148,7 @@ MonoBehaviour:
   - Lab3
   - Lab4
   - Lab5_1
+  - Lab6
 --- !u!4 &545361988
 Transform:
   m_ObjectHideFlags: 0
