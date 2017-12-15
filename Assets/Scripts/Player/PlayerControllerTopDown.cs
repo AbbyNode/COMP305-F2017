@@ -16,5 +16,7 @@ public class PlayerControllerTopDown : MonoBehaviour {
 		float vMove = Input.GetAxis("Vertical");
 
 		rb.velocity = new Vector2(hMove, vMove) * speed;
+
+
 	}
 }
