@@ -15,8 +15,12 @@ public class PlayerControllerTopDown : MonoBehaviour {
 		float hMove = Input.GetAxis("Horizontal");
 		float vMove = Input.GetAxis("Vertical");
 
-		rb.velocity = new Vector2(hMove, vMove) * speed;
+		rb.angularVelocity = 0;
+		rb.velocity = new Vector2(0, 0);
 
-
+		if (hMove != 0 || vMove != 0) {
+			rb.velocity = new Vector2(hMove, vMove) * speed;
+			transform.eulerAngles = new Vector3(0, 0, (Mathf.Atan2(vMove, hMove) * Mathf.Rad2Deg) - 90);
+		}
 	}
 }
