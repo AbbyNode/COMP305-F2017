@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class CameraControllerFollow : MonoBehaviour {
-
 	public Transform player;
+	public float yOffset = 2;
 
 	private Transform camTrans;
 
@@ -13,6 +13,6 @@ public class CameraControllerFollow : MonoBehaviour {
 	}
 
 	void Update() {
-		camTrans.position = new Vector3(player.position.x, player.position.y + 2, camTrans.position.z);
+		camTrans.position = new Vector3(player.position.x, player.position.y + yOffset, camTrans.position.z);
 	}
 }

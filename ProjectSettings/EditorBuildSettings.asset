@@ -29,3 +29,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Lab6.unity
     guid: 563393e4a84fd7246aa0fc1e2c2a7998
+  - enabled: 1
+    path: Assets/Scenes/Lab7.unity
+    guid: 818eba1056d40d744bf989e50ca3fec6
+  - enabled: 1
+    path: Assets/Scenes/WinScene.unity
+    guid: e1186798964c56a41b26671882696e65
